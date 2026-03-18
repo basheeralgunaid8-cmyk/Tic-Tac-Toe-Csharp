@@ -1,0 +1,251 @@
+# ==================================
+# COMPILED SOURCE CODE
+# ==================================
+
+### C/C++ ###
+**/*.o
+**/*.obj
+**/*.exe
+**/*.out
+**/*.a
+**/*.lib
+**/*.dll
+**/*.so
+**/*.dylib
+**/*.exp
+**/*.ilk
+**/*.pdb
+**/*.idb
+**/*.pch
+**/*.exe.recipe
+**/*.obj.enc
+
+### Java ###
+**/*.class
+**/*.jar
+**/*.war
+**/*.ear
+**/*.jks
+
+### Python ###
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/*.pyz
+**/*.pyzw
+**/*.egg
+**/*.egg-info/
+**/dist/
+**/build/
+
+### C# / .NET ###
+**/bin/
+**/obj/
+**/*.csproj.user
+**/*.csproj.references
+**/*.cache
+**/*.exe.config
+**/*.dll.config
+**/packages/
+**/*.nupkg
+
+# ==================================
+# IDE AND EDITOR FILES
+# ==================================
+
+### Visual Studio ###
+**/.vs/
+**/*.sln.docstates
+**/*.suo
+**/*.user
+**/*.userosscache
+**/*.sln.ide
+**/*.vspx
+**/*.psess
+**/*.vsp
+**/*.trace
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+**/ipch/
+**/AutoPCH/
+**/*.ipch
+**/TestResults/
+
+### VS Code ###
+**/.vscode/
+**/*.code-workspace
+**/.history/
+
+### JetBrains (IntelliJ, CLion, PyCharm) ###
+**/.idea/
+**/*.iml
+**/*.iws
+**/*.ipr
+**/.gradle/
+**/out/
+**/target/
+
+### Eclipse ###
+**/.classpath
+**/.project
+**/.settings/
+**/.metadata/
+**/*.tmp
+**/*.log
+**/*.log.*
+**/bin/
+**/build/
+
+# ==================================
+# VERSION CONTROL
+# ==================================
+
+### Git ###
+**/.git/
+**/.gitignore
+!.gitignore
+**/.gitattributes
+**/.gitmodules
+**/.keep
+
+### Subversion ###
+**/.svn/
+
+# ==================================
+# OPERATING SYSTEM FILES
+# ==================================
+
+### Windows ###
+**/Thumbs.db
+**/Desktop.ini
+**/$RECYCLE.BIN/
+**/*.cab
+**/*.msi
+**/*.msm
+**/*.msp
+
+### macOS ###
+**/.DS_Store
+**/.AppleDouble
+**/.LSOverride
+**/.Spotlight-V100
+**/.Trashes
+**/*.DS_Store
+**/Icon?
+**/.AppleDB
+**/.apdisk
+
+### Linux ###
+**/*~
+**/.fuse_hidden*
+**/.directory
+**/*.lock
+**/.nfs*
+
+# ==================================
+# COURSE SPECIFIC
+# ==================================
+
+### Temporary Course Files ###
+**/temp/
+**/tmp/
+**/test_data/
+**/*.log
+**/*.tmp
+**/*.bak
+**/*.backup
+**/*.old
+**/*.swp
+**/*.swo
+**/*.swn
+**/compiled-files.txt
+**/file-list.txt
+
+### Large Files (Prevent Accidental Uploads) ###
+**/*.zip
+**/*.tar
+**/*.gz
+**/*.rar
+**/*.7z
+**/*.iso
+**/*.dmg
+**/*.exe
+**/*.msi
+**/*.deb
+**/*.rpm
+**/*.bin
+**/*.dat
+**/*.img
+
+### Virtual Environments ###
+**/venv/
+**/env/
+**/ENV/
+**/virtualenv/
+**/virtualenvs/
+**/.env
+**/.venv
+**/.python-version
+**/.pypirc
+
+### Jupyter Notebook ###
+**/.ipynb_checkpoints/
+**/*.ipynb_checkpoints/
+**/profile_default/
+**/ipython_config.py
+
+# ==================================
+# DO NOT IGNORE THESE
+# ==================================
+
+### Source Code Files (Keep These) ###
+!**/*.c
+!**/*.cpp
+!**/*.h
+!**/*.hpp
+!**/*.py
+!**/*.java
+!**/*.cs
+!**/*.js
+!**/*.ts
+!**/*.html
+!**/*.css
+!**/*.php
+!**/*.rb
+!**/*.go
+!**/*.rs
+!**/*.swift
+!**/*.kt
+!**/*.kts
+!**/*.scala
+!**/*.m
+!**/*.mm
+
+### Documentation ###
+!**/*.md
+!**/*.txt
+!**/*.pdf
+!**/*.docx
+!**/*.xlsx
+!**/README*
+!**/LICENSE*
+!**/CHANGELOG*
+
+### Project Files (Keep Essential Ones) ###
+!**/*.sln
+!**/*.vcxproj
+!**/*.vcxproj.filters
+!**/*.csproj
+!**/*.fsproj
+!**/*.vbproj
+!**/*.pyproject.toml
+!**/*.toml
+!**/*.json
+!**/*.yaml
+!**/*.yml
+!**/*.xml
+!**/*.config
+!**/*.properties
